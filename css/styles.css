@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* overflow: hidden; */
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(../img/3.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.hero-overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.hero h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: white;
+}
+
+.hero-buttons :first-child {
+  background-color: blue;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 01rem;
+  margin-right: 20px;
+}
+
+.hero-buttons :last-child {
+  background-color: transparent;
+  padding: 6px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border-width: 1px;
+  border-color: white;
+  /* border: 4px solid white; */
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 7rem 10rem;
+  row-gap: 3rem;
+  align-items: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2rem; */
+}
+
+.feature img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.feature-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.feature-two {
+  background-color: #f5f5f5;
+}
+
+.feature-text button {
+  background-color: blue;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  width: fit-content;
+}
