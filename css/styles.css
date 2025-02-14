@@ -88,7 +88,8 @@
   /* display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 2rem; */
+  column-gap: 2rem;
+  height: 100vh; */
 }
 
 .feature img {
@@ -115,4 +116,44 @@
   text-transform: uppercase;
   color: white;
   width: fit-content;
+}
+
+.feature-text h1 {
+  font-size: 2rem;
+}
+
+.feature-three {
+  background-image: url(../img/3.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: flex; */
+}
+
+.feature-three-overlay {
+  color: white;
+}
+
+.feature-three-overlay button {
+  background-color: blue;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  width: fit-content;
+}
+
+.feature-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0a3046;
+  font-weight: 1000;
 }
